@@ -1,0 +1,82 @@
+body {
+  background-color: #B2BEB5;
+  font-family: "ubuntu", sans-serif;
+  color: #191970;
+  text-align: center;
+}
+
+#navbar {
+  list-style: none;
+  background-color: #887696;
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  right: 0px;
+  height: 40px;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+#navbar li {
+  display: block;
+  padding-top: 10px;
+}
+
+#navbar li a {
+  padding: 0px 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+  color:#000;
+}
+
+#navbar a:hover {
+  color: #006622;
+}
+
+#name {
+  float: center;
+  padding: 50px;
+  background-image:  url(http://www.publicdomainpictures.net/pictures/190000/velka/travel-background-14694382269DG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ width:100%;
+  
+}
+
+#name h1 #profile-pic {
+ height:15%;
+  Width: 10%;
+ border-radius: 0.8em;
+}
+
+#scrollable-body{
+   background-color: #D8BFD8;
+}
+
+.scrollable-sections{
+   text-align: center;
+   padding:50px;
+
+}
+.scrollable-sections h2{
+  text-align: left;
+}
+
+.scrollable-sections p{
+  color:#000;
+  font-size: 1.5em;
+  }
+
+.scrollable-sections img {
+  display: inline;
+}
+
+
+.fa{
+  font-size:1.5em;
+}
+
+.btn:hover {
+  color: #191970;
+}
